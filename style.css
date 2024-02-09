@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#display {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 16px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
