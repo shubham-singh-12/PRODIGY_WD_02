@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Protest Strike', sans-serif !important;
     margin: 0;
     padding: 0;
 }
@@ -25,6 +27,7 @@ button {
     font-size: 1em;
     cursor: pointer;
 }
+
 
 ul {
     list-style-type: none;

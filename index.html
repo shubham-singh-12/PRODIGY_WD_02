@@ -5,21 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stopwatch</title>
+
+    <!-- LOCAL CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="container">
-        <h1>Stopwatch</h1>
+        <h1 class="h1">STOPWATCH</h1>
         <div id="display">00:00:00</div>
-        <button id="startBtn" onclick="startStopwatch()">Start</button>
-        <button id="pauseBtn" onclick="pauseStopwatch()">Pause</button>
-        <button id="resetBtn" onclick="resetStopwatch()">Reset</button>
-        <button id="lapBtn" onclick="recordLap()">Lap</button>
+        <button id="startBtn" class="btn btn-primary" onclick="startStopwatch()">Start</button>
+        <button id="pauseBtn" class="btn btn-warning" onclick="pauseStopwatch()">Pause</button>
+        <button id="resetBtn" class="btn btn-danger" onclick="resetStopwatch()">Reset</button>
+        <button id="lapBtn" class="btn btn-success" onclick="recordLap()">Lap</button>
         <ul id="lapTimes"></ul>
     </div>
 
+
+    <!-- LOCAL JS -->
     <script src="script.js"></script>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
 </html>
